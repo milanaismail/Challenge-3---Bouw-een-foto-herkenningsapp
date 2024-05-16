@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Object Detection</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet" ></script>
+  <script type="text/javascript" src="https://unpkg.com/webcam-easy/dist/webcam-easy.min.js" ></script>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <button id="take-photo">I spy with my little eye...</button>
+  <div class="container">
+    <video id="webcam" autoplay playsinline width="640" height="480"></video>
+    <canvas id="canvas" class="canvas"></canvas>
+  </div>
+  <div id="results"></div>
+</body>
+</html>
