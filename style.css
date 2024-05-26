@@ -9,6 +9,14 @@ body{
     height: 100vh;
     flex-direction: column;
 }
+#Elements{
+    width: 120px;
+    height: auto;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 .canvas{
     border-radius: 20px;
@@ -50,9 +58,6 @@ button{
 @media screen and (max-width: 1300px){
     .container{
         flex-direction: column;
-    }
-    body{
-        height: auto;
     }
     #results{
         top: 516px;
